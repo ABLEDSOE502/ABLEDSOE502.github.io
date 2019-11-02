@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(90, 145, 1);
+}
+
+.hero-unit {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/267-ted1507-chim.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1200&s=5411c26fc89029558ac70a0e28d6abcb);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
+}
+
+.hero-inner h1 {
+    font-size: 5em;
+    margin: 0;
+    color: rgb(97, 184, 63);
+}
+
+.hero-inner h2 {
+    color: white;
+    padding: 0;
+
+}
+
+.hero-inner .btn {
+    background-color: yellowgreen;
+    opacity: .75;
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(142, 189, 68);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.hero-inner p {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: green;
+    width: 100vw;
+}
+
+li  {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+li a:hover {
+    background-color: rgb(142, 189, 68);
+    color: white;
+}
+
+.active {
+    background-color: greenyellow;
+}
+
+hr {
+    border: 50px solid green;
+}
+
+h2 {
+    padding: 10px;
+    color: whitesmoke;
+}
+
+p {
+    text-align: left;
+    padding: 10px;
+    color: whitesmoke;
+}
