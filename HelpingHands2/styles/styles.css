@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Solway', serif;
+    background-color: rgb(132,217,254);
+}
+
+.main li {
+	display: block;
+}
+
+.main li a {
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	color: whitesmoke;
+}
+
+.main li a:hover{
+	color: rgb(48,73,93);
+}
+	
+.hero-unit {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/267-ted1507-chim.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1200&s=5411c26fc89029558ac70a0e28d6abcb);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+	position: static;
+}
+
+.hero-unit img{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	height: auto;
+	max-height: 100px;
+	width: auto;
+	max-width: 100px;
+}
+
+.hero-inner h1 {
+	position: absolute;
+	top: 8px;
+	left: 110px;
+    font-size: 5em;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.hero-inner .btn {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+    background-color: rgb(48,73,93);
+    display: block;
+    width: 150px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.hero-inner .btn:hover {
+	background-color: rgb(62, 90, 112);
+	color: whitesmoke;
+}
+
+.hero-inner p {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(48,73,93);
+    width: 100vw;
+	margin-top: 0px;
+}
+
+.nav li  {
+    float: left;
+	background-color: rgb(48,73,93);
+}
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: rgb(132,217,254);
+    color: rgb(48,73,93);
+	border-bottom: solid 4px rgb(132,217,254);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.nav li a.current {
+    background-color: rgb(132,217,254);
+	border-left: solid 2px whitesmoke;
+	border-right: solid 2px whitesmoke;
+	border-top: solid 2px whitesmoke;
+	border-bottom: solid 2px rgb(132,217,254);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: rgb(48,73,93);
+}
+
+.nav li input {
+	text-align: right;
+	padding: 8px 15px;
+	margin: 8px 8px 8px;
+}
+
+.main p {
+    text-align: left;
+    padding: 10px;
+    color: rgb(48,73,93);
+}
+
+.main h1 {
+	text-align: left;
+	padding: 10px;
+    color: rgb(48,73,93);
+}
+
+.main h2 {
+	text-align: left;
+	padding: 8px;
+    color: rgb(48,73,93);
+
+}
+
+.main img {
+	width: 100%;
+	opacity: 0.8;
+}
+
+.main .btn {
+    background-color: rgb(48,73,93);
+    display: block;
+    width: 200px;
+    padding: 1em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 1.5em;
+	text-align: center;
+}
+
+.main .btn:hover {
+	background-color: rgb(62, 90, 112);
+	color: whitesmoke;
+}
+	
+
+.footer ul {
+	list-style-type: none;
+	margin-top: 50px;
+	margin-bottom: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(48,73,93);
+    width: 100vw;
+}
+
+.footer li p {
+	font-style: italic;
+	font-size: 14px;
+	position: absolute;
+	right: 6px;
+	color: whitesmoke;
+}
+
+.footer li  {
+    float: left;
+}
+
+.footer li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    background-color: rgb(62, 90, 112);
+	border-radius: 5px;
+}
+
+.main a {
+	text-decoration:none;
+	color: whitesmoke;
+}
+
+.main a:hover {
+	color: rgb(48,73,93);
+}
+
+.main input {
+	padding: 8px 15px;
+	margin: 8px 0px 8px;
+	box-sizing: border-box;
+	color: rgb(48,73,93);
+	display: block;
+	border-radius: 5px;
+}
+
+.main input[type=submit] {
+	background-color: rgb(48,73,93);
+	border: solid 2px whitesmoke;
+	border-radius: 5px;
+	padding: 15px 35px;
+	margin-left: 0;
+	margin-top: 20px;
+	color: whitesmoke;
+}
+
+form {
+	color: rgb(48,73,93);
+	padding: 15px 30px;
+	margin-left: 8px;
+	text-align: left;
+}
